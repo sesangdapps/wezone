@@ -1,0 +1,15 @@
+//
+//  CommonDataView.h
+//  wezone
+//
+//  Created by Kim Sunmi on 2017. 3. 23..
+//  Copyright © 2017년 Kim Sunmi. All rights reserved.
+//
+
+#import <UIKit/UIKit.h>
+
+@interface CommonDataView : UIView
+
+@property (nonatomic, strong) id data;
+
+@end

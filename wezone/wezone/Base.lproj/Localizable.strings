@@ -1,0 +1,792 @@
+/*
+ Localizable.strings
+ Langtudy
+ 
+ Created by SinSuMin on 2015. 9. 3..
+ Copyright (c) 2015년 galuster. All rights reserved.
+ */
+
+"wezone"="WEZONE";
+//"splash_msg"="세계의 언어를\n 현지인에게 배울 수 있는";
+//"splash_msg_title"="언어공유 플랫폼-LANGTUDY";
+//
+////최초로딩
+//"login_noti_01"="언제 어디서나 현지인과의 대화를 통해 외국어 실력을 늘려보세요.";
+//"login_noti_02"="내 언어레벨을 높혀줄 다양한 나라의 현지인들을 검색하고, 내가 원하는 시간에 수업을 예약해 보세요.";
+//"login_noti_03"="예약한 시간이 되면 스마트폰, 테블릿, PC에서 실시간 채팅/화상통화로 수업을 진행할 수 있어요.";
+//"login_noti_04"="현지인들은 나의 언어레벨을 어떻게 평가할까요? 현지인들에게 직접받는 평가가 큰 도움이 될수 있어요.";
+//
+
+
+// 메인
+"main_themezone"="테마존";
+"main_wezone"="위존";
+
+"main_menu_market"="비콘 마켓";
+"main_menu_friend"="내 친구";
+"main_menu_setting"="설정";
+"main_menu_callcenter"="고객센터";
+"main_menu_logout"="로그아웃";
+"main_menu_event"="오늘의 이벤트";
+
+// 위존
+"wezone_my_wezone"="입장한 Wezone";
+"wezone_near_wezone"="내 주변";
+
+"wezone_search_title"="Wezone 검색";
+"wezone_search_placeholder"="Wezone 또는 해시태그로 검색할 수 있습니다.";
+"wezone_search_hashtag"="인기 급상승 태그";
+
+"wezone_group_chat"="그룹 채팅";
+"wezone_write"="글쓰기";
+"wezone_join"="입장하기";
+"wezone_impossible"="입장 불가";
+"wezone_wait"="입장 대기";
+"wezone_detail_info"="상세정보";
+"wezone_board"="게시글";
+"wezone_member"="멤버";
+"wezone_review"="리뷰";
+"wezone_update_location"="위치 없데이트";
+"wezone_wait_desc"="'%@'의 비콘을 테그하시면 입장이 가능합니다.";
+"wezone_impossible_desc"="%@m 이내에서만 입장이 가능합니다.";
+"wezone_join_error"="위존에 입장할 수 없습니다.";
+"wezone_add_friend"="추가";
+
+"wezone_search"="검색하기";
+"wezone_create"="Wezone 생성";
+
+"wezone_review_write"="리뷰 작성";
+"wezone_review_write_placeholder"="리뷰를 작성해 주세요.";
+
+"wezone_board_write"="게시글 작성";
+"wezone_board_write_placeholder"="게시하려는 내용을 적어 주세요!";
+"wezone_board_photo"="사진 올리기";
+"wezone_board_notice_regist"="공지글로 등록";
+"wezone_board_notice"="공지글";
+"wezone_comment_all"="댓글 %d개 모두 보기";
+"wezone_board_modify"="게시글 수정";
+"wezone_board_write_empty"="게시글을 입력해 주세요.";
+"wezone_board_comment_placeholder"="댓글을 남겨주세요.";
+
+"wezone_manager_input_title"="타이틀 입력";
+"wezone_manager_input_introduce"="소개 입력";
+"wezone_manager_title_placeholder"="타이틀을 입력해 주세요";
+"wezone_manager_introduce_placeholder"="소개 문구 또는 해시태그를 적어 주세요";
+
+"wezone_manager_location_type"="위치 인식";
+"wezone_manager_member_limit"="인원 제한";
+"wezone_manager_open"="비공개 ZONE";
+"wezone_manager_notification"="알림";
+"wezone_manager_zone_in"="존 in";
+"wezone_manager_zone_out"="존 out";
+
+"wezone_zone_type_open"="공개";
+"wezone_zone_type_close"="비공개";
+
+"wezone_location_type_gps"="GPS";
+"wezone_location_type_beacon"="비콘";
+"wezone_location_distance_range"="거리 범위";
+"wezone_location_distance_desc"="거리 범위를 정해 주세요";
+
+"wezone_zone_action_sound"="사운드 재생";
+"wezone_zone_action_push"="Push 메세지";
+"wezone_zone_action_image"="이미지 보이기";
+"wezone_zone_action_app"="앱 실행";
+"wezone_zone_action_email"="이메일 보내기";
+
+
+// 유저
+"member_distance_by_me"="나와의 거리";
+"member_join_zone_count"="입장한 존";
+"member_add_friend"="친구 추가";
+"member_profile"="프로필";
+"member_name_placeholder"="이름을 입력해 주세요";
+"member_status_message"="상태 메세지";
+"member_staus_message_desc"="간략한 상태 메세지를 보여주는 공간입니다";
+"member_staus_message_placeholder"="상태 메세지를 입력해 주세요";
+
+"list_more_load"="%d개 더보기";
+
+"not_use"="사용안함";
+"member_unlimit"="무제한";
+"member_format"="%d명";
+
+"title"="타이틀";
+"introduce"="소개";
+
+"close"="닫기";
+"delete"="삭제";
+"regist"="등록";
+"manager"="매니저";
+
+
+
+//최초로딩 가입하기
+"sing_up"="가입하기";
+"email"="E-mail";
+"password"="비밀번호";
+
+"code"="인증코드";
+"next"="다음";
+
+
+
+//
+//"native_language"="모국어";
+//"what_is_your_native_language"="모국어를 선택하세요.";
+//
+//"language_level"="언어 수준";
+//
+// 최초로딩 로그인
+"forgot_your_password"="비밀번호를 잊으셨나요?";
+"login"="로그인";
+
+"please_enter_id"="아이디를 입력해주세요.";
+
+
+//최초로딩 비밀번호 찾기
+"try_again"="다시 시도하겠습니다.";
+"forgot_password"="비밀번호 찾기";
+"change_password"="비밀번호 변경";
+"send"="전송";
+"we_have_sent_a_push_message"="%@님의 메일로 인증코드를 보냈습니다. \n올바른 인증코드를 입력하시면 비밀번호를 재설정하실 수 있습니다.";
+//
+//
+"set_new_password_of"="%@님의 새 비밀번호를 설정하세요.";
+"new_password"="새 비밀번호";
+"edit"="수정";
+"change"="변경";
+"wrong_email_or_password"="이메일 또는 비밀번호가 잘못되었습니다. 다시 시도하세요.";
+
+"server_date_format"="yyyy-MM-dd HH:mm:ss";
+"display_date_format"="yyyy년 M월 d일";
+//
+////search
+//"search"="검색";
+//
+//"langtor"="랭토";
+//"langtee"="랭티";
+//
+"terms_of_service"="가입정책";
+//
+////Group home setting
+//"notification"="알림";
+//"push_notification"="푸시 알림";
+//
+//"yes"="예";
+//"no"="아니오";
+//"photo"="사진";
+//"choose_wallpaper"="배경선택";
+"take_photo"="카메라";
+"choose_from_library"="사진선택";
+//
+//
+////add lectrue
+//"select"="선택";
+//
+//"prev"="이전";
+//
+//"press_to_record"="눌러서 녹음하기";
+//"recording"="녹음중";
+//"re_record"="다시 녹음";
+//"complete_record"="녹음 완료";
+//"playing"="재생중";
+//"pause"="일시정지";
+//"uploading_file"="파일 업로드중..";
+//"uploading_video"="비디오 업로드중 ..";
+//
+//"average"="평점";
+//
+//// Group study lecture home
+//
+//"minutes_ago"="%d분전";
+//"hours_ago"="%d시간전";
+//"days_ago"="%d일전";
+//"months_ago"="%d달전";
+//"recommendation"="추천";
+//
+//
+//// profile
+//"introduction"="소개";
+//"messages"="메세지";
+//
+//"no_introduction"="자기소개글이 없습니다. ";
+//
+//"no_messages"="수신된 메시지가 없습니다.";
+//
+//
+//// profile edit
+//"gender"="성별";
+//"male"="남자";
+//"female"="여자";
+//"nationality"="국적";
+//"date_of_birth"="생일";
+//
+//
+//"main_language"="주요 언어";
+//
+//
+////etc
+//"done"="완료";
+"cancel"="취소";
+//"album"="앨범";
+//"remove"="삭제";
+//
+//
+//"camera"="카메라";
+//"select_photo"="사진선택";
+//
+//
+//// common
+//"use_lang"="사용";
+//"send_text_msg"="문자 보내기(%d)";
+//"network_error"="네트워크 오류입니다.";
+//"please_enter_a_comment"="코멘트를 입력해 주세요.";
+//"you_can_enter_up_to_characters"="최대 %d자까지 입력이 가능합니다.";
+//"please_wait"="잠시만 기다려주세요.";
+//"you_can_not_select_more_than_image"="%d장 이상의 이미지는 선택할 수 없습니다.";
+//"only_1_image_can_be_selected"="1장의 이미지만 선택할 수 있습니다.";
+//"file_upload_failed"="파일 업로드에 실패했습니다. 다시 시도해 주세요. ";
+//
+//
+"image_upload_failed"="구글 인증에 실패했습니다. 다시 시도해 주세요. ";
+
+
+"google_authentication_failure"="구글 인증 실패.";
+"the_unregistered_email"="등록되지 않은 이메일 입니다.";
+"the_verification_number_is_incorrect"="인증번호가 틀립니다.";
+"the_password_change_failed"="비밀번호 변경에 실패했습니다. 다시 시도해 주세요. ";
+"the_email_is_already_used"="이미 가입된 이메일 입니다.";
+
+"please_enter_your_code"="코드를 입력해주세요.";
+"not_the_email_type"="이메일 형식이 아닙니다. ";
+"please_enter_your_password"="비밀번호를 입력해주세요.";
+"please_enter_your_email"="이메일을 입력해주세요.";
+
+
+
+//"please_enter_your_introduction"="자기소개를 작성 해주세요.";
+//
+//"please_enter_your_gender"="성별을 선택해 주세요.";
+//"please_enter_your_country"="국가를 선택해 주세요.";
+//
+//"system_failure"="시스템 장애가 발생했습니다. 잠시후 다시 시도해 주세요. ";
+//"please_check_the_internet_network"="네트워크가 불안정합니다\n 인터넷이 되는 환경인지 확인해 주세요.";
+//"press_again_to_exit"="뒤로 버튼을 한번 더 누르시면 종료 됩니다.";
+//
+//"sent_an_invitation_message"="초대를 하였습니다.";
+//
+//"upload"="업로드";
+//"invite_friends"="친구초대";
+//"setting"="설정";
+//
+////main
+"please_enter_your_name"="이름을 입력해주세요.";
+//"please_select_your_gender"="성별을 선택해주세요.";
+//
+//"ok"="확인";
+//
+//// profile
+//"interest"="관심사";
+//"edit_interest"="관심사 수정";
+//"select_interest"="관심사를 선택해주세요.";
+//"upload_your_video"="나만의 동영상을 추가해보세요.";
+//
+////setting
+//"search_option_help"="search_option_help search_option_help search_option_help search_option_help ";
+//
+//"delete_msg"="If you deactivate your account, you can not receive a message, be booked, and be shown on a list.";
+//"delete_my_account"="계정 삭제";
+//
+//"delete_popup_msg"="랭터디에서 받았던 언어레벨과 평점등의 데이터가 모두 삭제됩니다.\n 정말 탈퇴하시겠습니까?";
+//
+//"no_results"="결과가 없습니다.";
+//
+//"google_play_not_available"="구글 플레이 서비스에 문제가 발생하였습니다.\n 구글 플레이 스토어를 확인해주세요.";
+//
+//"youtube_upload"="youtube.com   업로드";
+//"youtube_direct_lite_upload_started"="youtube.com  에 동영상을 업로드합니다. ";
+//
+//"setting_none"="선택안됨";
+//
+//
+////common
+//"delete"="삭제";
+//"all"="전체";
+//
+//"africa"="아프리카";
+//"antarctica"="남극";
+//"asia"="아시아";
+//"australia"="오스트레일리아(오세아니아)";
+//"europe"="유럽";
+//"north_america"="북아메리카";
+//"south_america"="남아메리카";
+//
+//"student_cnt"="학생 수";
+//"langtee_lectures_cnt"="강의 수";
+//"langtor_lectures_cnt"="강의 받은 수";
+//
+//
+//"good"="좋아요";
+//
+//// titles
+//"profile"="프로필";
+//"chatting"="채팅";
+//"booking"="예약";
+//"schedule"="일정";
+//"last_schedule"="지난 일정";
+//"timetable"="시간표";
+//"review"="리뷰";
+//"report"="신고";
+//"youtube"="유튜브";
+//
+
+//login
+"Login" = "Login";
+"KakaoTalk" = "KakaoTalk";
+"Google+" = "Google+";
+"Facebook" = "Facebook";
+
+//"login_continue"="이메일로 계속하기";
+//"login_continue_with_google"="GOOGLE로 계속하기";
+//"login_continue_with_facebook"="FACEBOOK으로 계속하기";
+//
+//"login_with_google"="GOOGLE로 로그인";
+//"login_with_facebook"="FACEBOOK으로 로그인";
+//
+"login_terms_of_service"="서비스 약관 및 개인정보 보호정책";
+//
+//"almost_there"="거의 다 완료했습니다";
+//
+//"language_selection"="언어 선택";
+//"you_can_not_select_more_than_language"="최대 %d개까지 선택이 가능합니다.";
+//
+//"teach"="가르치는 언어";
+//"learn"="배우는 언어";
+//
+//"teach_add"="가르치는 언어 추가";
+//"learn_add"="배우는 언어 추가";
+//
+//"time_table_of_teach"="가르치는 언어의 시간표";
+//
+//"teach_selection"="가르치는 언어 선택";
+//"learn_selection"="배우는 언어 선택";
+//
+//"teach_selection_title"="가르치는 언어를 선택 해주세요.";
+//"learn_selection_title"="배우는 언어를 선택 해주세요.";
+//
+"already_on_wezone"="Wezone 계정으로 로그인합니다.  ";
+
+"what_is_your_name"="이름을 입력해주세요.";
+"name"="이름";
+
+"already_on_other_language"="%@은 %@ 계정으로 가입되어 있습니다.";
+
+//"google"="Google";
+//"facebook"="Facebook";
+//"langtudy"="랭터디";
+//
+"login_error"="로그인 에러";
+//
+//"sign_lang_desc"="나중에 프로필설정에서 배우고 싶은 언어를 추가 할 수 있습니다. (최대 4개)";
+//"sign_teach_lang_include"="랭토 검색결과에 보이도록 설정 하시 겠습니까? ";
+//"sign_teach_lang_include_desc"="설정하시면 검색을 통해 랭티들이 메세지를 보내거나 수업 예약을 할 수 있습니다.";
+//
+//"login_confirm_msg"="프로필 설정에서 자기소개와 관심사를 추가하면 랭티가 검색할때 좀더 높은 순위에서 검색됩니다.";
+//
+"login_pass_notice"="%@ (으)로 가입된 계정이 없어, 신규가입합니다.";
+
+"login_find_email_desc"="위 이메일로 \"비밀번호 변경\"을 위한 인증번호를 전송합니다.";
+
+"not_receive_mail"="이메일을 수신하지 못했습니다.";
+//
+////setting
+//"setting_my_account"="내 계정";
+//"setting_id"="아이디";
+//"setting_change_passward"="비밀번호 변경";
+//
+//"setting_location"="위치";
+//
+//"setting_my_profile"="내 프로필";
+//"setting_shown_on_langtor_list"="랭토 리스트 검색 허용";
+//"setting_shown_on_langtee_list"="랭티 리스트 검색 허용";
+//
+//"setting_edit_my_profile"="프로필 수정";
+//"setting_edit_my_timetable"="시간표 수정";
+//
+//"setting_help"="문의하기";
+//
+//"setting_membership_withdrawal"="회원 탈퇴";
+//"setting_withdrawal"="탈퇴";
+//
+//"current_password"="현재 비밀번호";
+//"your_current_password_is_incorrectly"="비밀번호가 잘못되었습니다.";
+//
+//"confirm_password"="비밀번호 확인";
+//"please_enter_the_same_password_twice_to_confirm_it"="비밀번호가 잘못되었습니다. 비밀번호를 다시 입력해주세요.";
+//
+//
+////left menu
+//"favorites"="즐겨찾기";
+//"logout"="로그아웃";
+//
+//// main list
+//"student"="학생";
+//"sort_by"="정렬";
+//"price_low_to_high"=" 가격 : 낮은순";
+//"price_high_to_low"=" 가격 : 높은순";
+//"popular"="인기순";
+//"sort_new"="최신순";
+//
+////main search
+//"users_who_can_speak_my_language_only"="나의 언어가 가능한 랭토만 검색합니다.";
+//"price"="가격";
+//
+//"available_time"="가능한 시간";
+//
+//"time_type"="시";
+//
+//"level"="레벨";
+//
+//"beginner"="입문";
+//"pre_intermediate"="초급";
+//"intermediate"="중급";
+//"upper_intermediate"="고급";
+//"advanced"="원어민";
+//
+//"no_location_yet"="위치정보 없음";
+//"no_interest_yet"="관심사 없음";
+//
+//"profile_schedula_title"="%@월 예약 현황 ";
+//"avaliable_reservation"="예약 가능";
+//"reserved"="예약됨";
+//
+//"reservation_has_done"="예약이 완료되었습니다.";
+//
+//"i_booked"="내가 예약한 랭토";
+//"i_am_booked"="나를 예약한 랭티";
+//
+//"free"="무료";
+//"per_min"="분당";
+//
+//"min_label"="최소";
+//"max_label"="최대";
+//
+//"max"="최대 %@ 개";
+//
+//"video_upload"="동영상 올리기";
+//"video_list"="내 유튜브 리스트";
+//"audio_upload"="음성 올리기";
+//"edit_timetable"="내 시간표 수정";
+//
+//"detail_infomation"="상세 정보";
+//"other_infomation"="기타 정보";
+//
+//
+////pay
+//"my_langcoing"="나의 보유 랭코인";
+//"langcoin"="랭코인";
+//
+//"langcoin_purchase"="구입";
+//"langcoin_reservation"="예약";
+//"langcoin_use"="사용";
+//"langcoin_exchange"="환전";
+//"langcoin_cancel"="취소";
+//"langcoin_refund"="환불";
+//"langcoin_earn"="수입";
+//
+//"enter_langcoin_lecture"="강의 금액을 입력해 주세요";
+//
+//"langcoin_exchange_desc"="환전하실 랭코인 금액을 입력해주세요.";
+//
+//"langcoin_exchanging"="환전하기";
+//"langcoin_purchasing"="구입하기";
+//
+//"langcoin_noti"="랭코인은 강의가 유료인 랭토를 예약할때 사용하거나, 강의를 하여 적립할 수 있습니다.(Android,Web을 통해서 가능합니다)";
+//"langcoin_desc"="500랭코인 부터 환전이 가능합니다.(Android,Web을 통해서 가능합니다)";
+//
+//"langcoin_refund_noti"="환불 관련 사항";
+//
+//"langcoin_all_data"="전체 내역";
+//
+//"langcoin_study_with"="%@님과 수업(%@ 분)";
+//"langcoin_used_money"="%@ %@(%@ %@)";
+//
+//"before_refund"="환불 요청 주의사항";
+//"refund_provision"="1. 부모 동의 없는 미성년자 결제로 인한 환불\n - 결제금액에 대한 PayPal 고정 수수료 제외 후 환불\n(단, 구매 1건에 대한 결제 금액이 $100 이상이며, 최대 100만원까지 환불)\n\n 2. Teacher로 인한 환불\n-예약을 하였으나 teacher와 통화를 하지 못한 경우, 플래닛 100% 환불\n-통화 시작 후 teacher의 이유 없는 욕설, 중요 신체부위 노출(변태), 사기(아무런 말도 하지 않거나 고의적 자리 비움) 플래닛 100% 환불(단, 해당하는 증거자료가 있는 경우(녹화,음성,스크린샷)만 100% 환불 가능)\n\n* 환불이 불가능한 경우\n- 어떠한 경우라도, 구매한 플래닛의 일부를 사용한 경우 환불 불가(미성년자 결제 제외)\n- teacher와의 대화에 대한 본인의 개인적 불만족으로 인한 환불 불가(욕설,노출,사기 제외)\n- 플래닛 구매 후 단순 변심으로 인한 플래닛 환불 불가\n- 탈퇴 시, 남은 플래닛이 10개 이하인 경우 환불 및 교환 불가\n- 신고 누적으로 인한, 계정 정지 시 남은 플래닛 환불 불가";
+//
+//"agree"="동의";
+//
+//"error_no_change"="잔액이 부족합니다.";
+//"error_already_review"="리뷰가 이미 완료됐습니다. ";
+//"error_already_refund"="환불이 이미 완료됐습니다. ";
+//
+//"language_info"="언어 정보";
+//
+//"error_no_reservation_time"="예약가능한 시간이 없습니다.";
+//
+//"pull_to_refresh_last_data_label"="마지막 데이터입니다.";
+//"pull_to_refresh_pull_label"="업데이트 하시려면 당겼다 놓으세요";
+//"pull_to_refresh_release_label"="업데이트 하시려면 당겼다 놓으세요";
+//"pull_to_refresh_refreshing_label"="로딩 중;";
+//
+//"pay_no_data"="사용내역이 없습니다.";
+//
+//"contents"="내용";
+//"used_langcoin"="랭코인 내역";
+//
+//"timetable_with_cal_title"="강의할 시간을 터치하여 오픈해주세요";
+//
+//"time_am"="오전 %@";
+//"time_pm"="오후 %@";
+//"am"="오전";
+//"pm"="오후";
+//"more"="더보기";
+//
+//// help
+//"title"="제목";
+//"enter_title"="제목을 입력하세요.";
+//"enter_contents"="내용을 입력하세요.";
+//"enter_contents_desc"="* 정확한 답변을 위해 자세한 내용 작성을 부탁드립니다.";
+//
+//"enter_introduction"="자기 소개 작성";
+//"self_Introduction_video"="자기 소개 영상 (Langtudy) ";
+//
+//"cancel_reason_01"="중복 예약";
+//"cancel_reason_02"="재예약";
+//"cancel_reason_03"="단순 변심";
+//"cancel_reason_04"="기타";
+//"cancel_reason_05"="미통화 자동삭제";
+//
+////booking
+//"booking_select_date"="날짜시간선택";
+//
+//"booking_reservation_and_pay"="예약 및 결제";
+//"booking_finish_reservation"="예약 완료";
+//"booking_desc"="예약을 원하시는 날짜와 시간대를 터치해주세요.";
+//
+//"booing_select_time"="수강 시간 선택";
+//
+//
+//"what_is_your_language"="언어를 선택해주세요.";
+//
+//"cancel_reason"="취소사유";
+//
+//"select_lang_for_review"="리뷰를 보실 언어를 선택해주세요.";
+//
+//"edit_reveiw"="리뷰 수정";
+//
+//"failed_sending"="발송 실패";
+//
+//"connecting"="연결 중 ..";
+//
+//"call_request"="전화 요청";
+//"call_disconnect"="전화 요청해제";
+//"call_receive"="수신";
+//"call_refuse"="거절";
+//"call_oncall"="통화중";
+//"call_timeout"="타임아웃";
+//"call_unsupport"="미지원";
+//"call_hangup"="전화끊음";
+//
+//"connect_cancel"="연결 해제";
+//"failure"="실패";
+//
+//"call_while_calling"="%@ 님께 전화가 왔습니다.";
+//
+//"edit_cost_desc"="금액은 %@ ~ %@  까지 또는, 무료로 설정 가능합니다.";
+//
+//"current_cost"="현재 강의 설정가";
+//
+//"currency"="환율가";
+//
+//"currency_desc"="랭코인 가격은 환율에 따라 변동될 수 있습니다. (VAT 포함)";
+//
+//"set_cost"="금액 설정";
+//"goto_reservation"="예약하러가기";
+//
+//"message_schedule_reserved_desc"="%@ 님의 예약입니다.";
+//"message_schedule_cancel_desc"="%@ 님이 예약을 취소하였습니다.";
+//
+//"language"="▶ 언어 : ";
+//"date"="▶ 날짜 : ";
+//"time"="▶ 시간 : ";
+//"reason"="▶ 사유 : ";
+//
+//"review_langcoin"="랭코인 : ";
+//
+//"new_schedule"="일정 등록";
+//"remove_schedule"="일정 삭제";
+//
+//"new_review"="리뷰 등록";
+//"edit_review"="리뷰 수정";
+//
+//"payment"="결제";
+//
+//"message_review_regi_desc"="%@ 님이 리뷰를 작성하였습니다.";
+//"message_review_edit_desc"="%@ 님이 리뷰를 수정하였습니다.";
+//
+//"goto_reservation_list"="예약목록 확인하기";
+//"goto_langcoin"="랭코인 확인하기";
+//
+//"move"="이동";
+//"close"="닫기";
+//
+//"call_done"="통화 완료";
+//"cancel_reservation"="예약 취소";
+//
+//
+//"one_week"="1 주일";
+//"one_month"="1 개월";
+//"six_month"="6 개월";
+//"one_year"="1 년";
+//"three_years"="3 년";
+//
+"start"="시작";
+//
+//"calling"="%@에게 전화 요청 중입니다.";
+//"receiving"="%@에게 전화 요청이 왔습니다.";
+//
+//"no_booking_time"="예약가능한 시간이 없습니다.";
+//"booking_free_error"="무료 인 경우 예약은 한번만 가능합니다. 다시 예약을 원하실 경우 기존의 예약을 취소하고 다시 예약해주세요.";
+//"booking_free_select_error"="무료는 한 유저당 한번의 수업만 가능합니다.";
+//
+//"pay_error"="결제를 종료하시겠습니까?";
+//
+//"wifi_error"="이동통신망을 이용하여 통화를 하시면 별도의 데이터 통화료가 발생할 수 있습니다.";
+//
+//"paypal"="PayPal 결제";
+//
+//"sound_vibrator"="소리 및 진동";
+//"sound"="소리";
+//"vibrator"="진동";
+//
+"password_limit_error"="비밀번호를 8자리 이상 입력해주세요.";
+//
+//"exchange_done_desc"="환전은 입력하신 paypal 계정을 통해 7일 이내로 진행됩니다.";
+//
+//"exchange_amount"="환전 금액";
+//"fee"="수수료";
+//"amount"="입금액";
+//
+//"enter_your_infomation"="입금 받으실 정확한 정보를 입력해 주세요.";
+//
+//"exchange_desc"="환전은 7일 미만의 기간이 소요 될 수 있습니다.";
+//
+//"network_error_desc"="네트워크가 불안정합니다. \n인터넷이 되는 환경인지 확인해 주세요.";
+//
+//"my_level"="내가 받은 언어레벨";
+//"my_rating"="내가 받은 언어별점";
+//
+//"preview"="미리보기";
+//
+//"plz_wait"="잠시만 기다려주세요.";
+//
+//"enter_your_langcoin"="랭코인을 입력해주세요.";
+//"you_can_exchange_at_least"="최소 500랭코인 부터 환전이 가능합니다.";
+//"not_enough_langcoin"="보유하신 랭코인이 부족합니다.";
+//
+//"you_can_not_select_more"="최대 %d개까지 선택이 가능합니다.";
+//
+//"you_want_to_remove_video"="영상을 삭제하시겠습니까?";
+//
+//"you_want_to_remove_audio"="음성을 삭제하시겠습니까?";
+//
+//"you_need_googld_account_for_uploading_video"="유튜브 영상 등록을 위해 구글 계정 정보가 필요합니다.";
+//
+//"youtube_uploading_desc"="등록된 개인 구글(유튜브) 계정을 통해 유튜브에 업로드 됩니다. 계속 진행하시겠습니까? \n * 업로드 된 영상은 유튜브 사이트에서 직접 삭제가 가능합니다.";
+//
+//"choose_level_for_langee"="랭티의 언어 레벨을 선택해주세요.";
+//"choose_average_for_langor"="당신이 생각한 랭토의 평점은?";
+//
+//"all_review"="모든 리뷰";
+//
+//"please_select_schedule_item"="일정 아이템을 선택해주세요.";
+//
+//"booking_with_pay_desc_pay_mode"="랭코인구매는 langtudy.com 웹사이트에서 가능합니다.";
+//"booking_with_pay_desc"="버튼을 누르시면 랭코인 구매 후 예약이 진행됩니다.";
+//"you_can_select_multiple_item"="수강 시간은 다수 선택이 가능";
+//
+//"you_want_to_cancel_reservation"="예약을 취소하시겠습니까?";
+//
+//"report_type"="신고유형";
+//"attach_file"="첨부파일";
+//
+//"hour_0"="0 시";
+//"hour_24"="24 시";
+//
+//"lecture_tile"="수강 시간";
+//
+//"thanks_for"="이용해 주셔서 감사합니다!";
+//
+//"app_review"="앱 평가하기";
+//
+//"booking_msg"="감사합니다.\n 예약시간 10분전부터 수업이 가능하며, 예약된 시간에 맞춰 langtudy 웹이나 앱으로 준비해주세요.";
+//"pay_with_booking_finish"="결제해 주셔서 감사합니다. 거래가 완료되었으며 이메일로 구매 영수증을 보냈습니다.\n www.paypal.com의 본인계정에 로그인하여 이 거래에 대한 세부정보를 볼 수 있습니다.";
+//
+//"booking_finish_date"="%@월 %@일 (%@) %@ ~ %@";
+//"booking_date_format"="yyyy년 M월 d일";
+//
+//"btn_late"="나중에";
+//
+//
+//"main_search_langtor" ="%@님에게 %@를 가르쳐 줄 수 있는 \"랭토\"입니다. 나에게 맞는 수업을 예약하고 내 언어레벨을 평가받아 보세요.";
+//"main_search_langtee" ="내 모국어를 배우고 싶어하는 전세계 \"랭티\"에게 메세지를 남겨보세요. 많이 가르칠수록 좀더 높은 순위에서 검색됩니다.";
+//
+//"add_favorite"="즐겨 찾기 추가가 완료 되었습니다.";
+//"remove_favorite"="즐겨 찾기 삭제가 완료 되었습니다.";
+//
+//"review_langtee"="랭티님! 평점을 완료해 주셔야 정산이 된답니다.";
+//
+//"faq"="자주 묻는 질문";
+//
+//"invitation_msg"="%@ 님께서 원어민에게 직접배우는 www.langtudy.com 에서 함께 언어를 배우고싶어합니다. Let\'s Langtudy together!";
+//
+//"google_auth_error"="구글 인증에 문제가 있습니다. 플레이 스토어를 실행 후 다시 접속해주세요.";
+//
+//
+////guide
+//"guide_close"="닫기";
+//"guide_next"="다음";
+//"guide_dont_show"="다시 보지 않기";
+//
+//"guide_01_title"="메뉴";
+//"guide_01_desc"="검색하고 싶은 언어를 선택하세요.";
+//
+//"guide_02_title"="리스트";
+//"guide_02_desc"="적합한 랭토/랭티를 찾아 터치해서 예약 해보세요.";
+//
+//"guide_03_title"="나의 일정";
+//"guide_03_desc"="예약목록을 확인하고 연락 할 수 있어요.";
+//
+//"guide_04_title"="내 프로필을 완성해 보세요!";
+//
+//"guide_04_lang_title"="어떤 언어에 관심 있나요?";
+//"guide_04_lang_desc"="배우고 가르치는 언어는 언제나 수정 할 수 있어요.";
+//
+//"guide_04_cost_title"="금액 설정 하기";
+//"guide_04_cost_desc"="내가 가르치는 수업의 가격을 무료~200랭코인까지 자유롭게 설정 할 수 있어요.";
+//
+//"guide_04_introduction_title"="나를 알려 보자!";
+//"guide_04_introduction_desc"="자기 소개 작성과 동영상/음성 업로드를 통해서 자신의 검색순위를 높여 보세요!";
+//
+//"topic_write_manually"="직접 입력하기";
+//
+//"topic_text_hint"="하고 싶은 이야기를 적어 주세요.";
+//
+//"topic_title"="랭토와 하고싶은 이야기를 정해보세요.";
+//
+//"topic"="▶ 주제 : ";
+//
+//"new_event"="새 소식 \& 이벤트";
+//
+//"service_error"="서비스 연결상태가 좋지 않습니다. 잠시에 다시 시도하세요";
+//
+//"time_format"="%02d분%02d초";
+//
+//"time_format_sec_only"="%02d초";
+//
+//"call_timer_format01"="%02d분 %02d초 / %02d분 00초";
+//"call_timer_format02"="%02d초 / %02d분 00초";
+//
+//"optional"="(선택)";

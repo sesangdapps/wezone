@@ -1,0 +1,54 @@
+8
+
+dir
+5696
+http://10.3.7.64:8888/svn/SDS/trunk/Shinhan_Stalk_iPhone__20141203_moved/Shinhan_Stalk/Library/Crypto/Utilities/General/Error
+http://10.3.7.64:8888/svn/SDS
+
+
+
+2014-07-30T00:25:11.710890Z
+5085
+13101004
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+340702b2-8ab3-423d-998d-b5e0fd55cd93
+
+BDError.h
+file
+
+
+
+
+2015-01-15T01:23:42.000000Z
+cdf9f7dcb31af2768efb665271bef53c
+2014-07-30T00:25:11.710890Z
+5085
+13101004
+has-props
+
+BDError.m
+file
+
+
+
+
+2015-01-15T01:23:42.000000Z
+843b38b5fcac6a9052c2ab47183836a2
+2014-07-30T00:25:11.710890Z
+5085
+13101004
+has-props
+
