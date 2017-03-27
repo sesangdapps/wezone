@@ -1,0 +1,10 @@
+source 'https://github.com/CocoaPods/Specs.git'
+
+target ‘wezone’ do
+#pod 'libjingle_peerconnection'
+#pod 'MXSegmentedPager', '~> 3.0'
+#pod 'iOS-Slide-Menu'
+#pod 'youtube-ios-player-helper'
+#pod 'M13ProgressSuite'
+#pod 'GSCountryPickerController'
+end

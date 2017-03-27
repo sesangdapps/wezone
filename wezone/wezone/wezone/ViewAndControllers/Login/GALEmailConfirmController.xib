@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="15G1217" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_0" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="GALEmailConfirmController">
+            <connections>
+                <outlet property="codeTextField" destination="kty-t2-nK4" id="FpF-Qi-rd4"/>
+                <outlet property="confirmLabel" destination="dMy-kb-7gR" id="6ah-fk-M1k"/>
+                <outlet property="descLabel" destination="lcd-ax-wuB" id="Rsj-wj-KV3"/>
+                <outlet property="notRecieveBtn" destination="vU6-gm-9n3" id="cef-rc-zWn"/>
+                <outlet property="titleLabel" destination="eVH-eg-jjH" id="pmT-q2-Nfc"/>
+                <outlet property="verticalCenterConstraints" destination="oJd-d6-OMq" id="Ic4-MO-Ync"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8If-0X-o60">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                    <state key="normal">
+                        <color key="titleColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="onClickOther:" destination="-1" eventType="touchUpInside" id="kxu-VM-KGU"/>
+                    </connections>
+                </button>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="eGj-nc-Ir5">
+                    <rect key="frame" x="13" y="169" width="294" height="230"/>
+                    <subviews>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="dialog" translatesAutoresizingMaskIntoConstraints="NO" id="I5g-yC-PJB">
+                            <rect key="frame" x="0.0" y="6" width="294" height="230"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        </imageView>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="text_field_white" translatesAutoresizingMaskIntoConstraints="NO" id="Dbw-2e-yen">
+                            <rect key="frame" x="26" y="102" width="235" height="39"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        </imageView>
+                        <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="kty-t2-nK4">
+                            <rect key="frame" x="37" y="107" width="220" height="28"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                            <textInputTraits key="textInputTraits"/>
+                        </textField>
+                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dMy-kb-7gR">
+                            <rect key="frame" x="21" y="184" width="253" height="50"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                            <state key="normal" title="전송">
+                                <color key="titleColor" red="0.40000000000000002" green="0.61176470588235299" blue="0.97254901960784312" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </state>
+                            <state key="highlighted" title="완료" backgroundImage="btn_confirm_touch"/>
+                            <connections>
+                                <action selector="onClickSend:" destination="-1" eventType="touchUpInside" id="8Xs-hn-FGP"/>
+                            </connections>
+                        </button>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="코드입력" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eVH-eg-jjH">
+                            <rect key="frame" x="30" y="25" width="214" height="21"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="OTk-Va-RFD">
+                            <rect key="frame" x="0.0" y="184" width="294" height="1"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <color key="backgroundColor" red="0.80000000000000004" green="0.80000000000000004" blue="0.80000000000000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        </view>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" minimumFontSize="12" translatesAutoresizingMaskIntoConstraints="NO" id="lcd-ax-wuB">
+                            <rect key="frame" x="32" y="64" width="222" height="30"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                            <color key="textColor" red="0.45882352941176469" green="0.45882352941176469" blue="0.45882352941176469" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vU6-gm-9n3">
+                            <rect key="frame" x="32" y="149" width="148" height="20"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                            <state key="normal" title="Button">
+                                <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="onClickNotRecieve:" destination="-1" eventType="touchUpInside" id="oC8-VP-axE"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="294" id="Jl9-UT-dkq"/>
+                        <constraint firstAttribute="height" constant="230" id="VtD-F9-c5A"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="8If-0X-o60" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="CNk-LO-sAs"/>
+                <constraint firstItem="8If-0X-o60" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="J2U-DB-CwM"/>
+                <constraint firstItem="eGj-nc-Ir5" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="UFh-Cg-ROh"/>
+                <constraint firstAttribute="trailing" secondItem="8If-0X-o60" secondAttribute="trailing" id="VvB-ZK-QNT"/>
+                <constraint firstItem="eGj-nc-Ir5" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" id="oJd-d6-OMq"/>
+                <constraint firstAttribute="bottom" secondItem="8If-0X-o60" secondAttribute="bottom" id="qDG-BL-ZjC"/>
+            </constraints>
+        </view>
+    </objects>
+    <resources>
+        <image name="btn_confirm_touch" width="23" height="23"/>
+        <image name="dialog" width="27" height="27"/>
+        <image name="text_field_white" width="25" height="25"/>
+    </resources>
+</document>

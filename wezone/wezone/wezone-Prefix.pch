@@ -1,0 +1,18 @@
+//
+//  PrefixHeader.pch
+//  Langtudy
+//
+//  Created by SinSuMin on 2015. 9. 1..
+//  Copyright (c) 2015년 galuster. All rights reserved.
+//
+
+#ifndef Langtudy_PrefixHeader_pch
+#define Langtudy_PrefixHeader_pch
+
+#import "GALCommon.h"
+#import "AppDelegate.h"
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif
